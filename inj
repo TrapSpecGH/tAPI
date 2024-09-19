@@ -1,0 +1,16 @@
+print("tAPI Injected")
+wait(0.1)
+print("Welcome")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "tAPI injected",
+    Text = "Injected tAPI",
+    Icon = "",
+    Duration = 8
+})
+wait(9)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "hi",
+    Text = "enjoy",
+    Icon = "",
+    Duration = 8
+})
